@@ -56,7 +56,7 @@ selected_vector_db = st.selectbox("Select Vector DB or Upload New Document", vec
 
 
 # Model selection
-model_options = ["gpt-oss:20b", "deepseek-r1:8b"]
+model_options = ["gpt-oss:20b", "deepseek-r1:7b"]
 selected_model = st.selectbox("Select Model for Embeddings and Chat", model_options, index=0)
 
 # If 'Upload New Document' is selected, show the file uploader
