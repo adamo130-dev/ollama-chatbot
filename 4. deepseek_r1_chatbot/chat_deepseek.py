@@ -10,10 +10,10 @@ from langchain_core.prompts import ChatPromptTemplate
 st.title(":brain: Make Your Own History Enabled Chat Application with DeepSeek, Ollama and Langchain!!!")
 st.write("LEARN LLM @ KGP Talkie: https://www.youtube.com/kgptalkie")
 
-model_name = "deepseek-r1:1.5b"
-# model_name = "deepseek-r1:1.5b"
+model_name = "deepseek-r1:7b"
+# model_name = "deepseek-r1:7b"
 
-model = ChatOllama(model=model_name, base_url="http://localhost:11434")
+model = ChatOllama(model=model_name, base_url="http://127.0.0.1:11434")
 
 st.write("DeepSeek is a powerful language model that can generate human-like text. It is trained on a diverse range of text data and can generate text in multiple languages. It is a large model with 1.5 billion parameters.")
 
