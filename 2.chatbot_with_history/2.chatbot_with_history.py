@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 st.title(":brain: Make Your Own History Enabled Chat Application with Ollama and Langchain!!!")
 st.write("LEARN LLM @ KGP Talkie: https://www.youtube.com/kgptalkie")
 
-model = ChatOllama(model="deepseek-r1:7b", base_url="http://127.0.0.1:11434/")
+model = ChatOllama(model="deepseek-r1:7b", base_url="http://127.0.0.1:11434")
 
 system_message = SystemMessagePromptTemplate.from_template("You are a helpful AI Assistant. You work as teacher for 5th grade students. You explain things in short and brief.")
 
