@@ -1,6 +1,7 @@
 streamlit
-langchain_ollama
-langchain_chroma
-langchain_core
+langchain-ollama
+langchain-chroma
+langchain
 pdf2image
 pillow
+
